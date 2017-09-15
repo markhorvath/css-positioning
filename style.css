@@ -53,6 +53,11 @@ body {
     text-align: center;
 }
 
+.services {
+    max-height: 150px;
+    overflow: hidden;
+}
+
 .services:after {
     content: "";
     display: block;
@@ -127,7 +132,8 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
-    max-height: 60px;
+    z-index: 1;
+/*    max-height: 50px;*/
 }
 
 nav ul:after {
@@ -136,12 +142,13 @@ nav ul:after {
     clear: both;
 }
 
-nav h3 {
+/*nav h3 {
     color: #fff;
     width: 30%;
     text-align: center;
     margin: 0 35%;
-}
+    float: left;
+}*/
 
 nav li {
     list-style: none;
